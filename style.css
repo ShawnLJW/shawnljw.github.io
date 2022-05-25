@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #cccccc;
+    background-color: #202020;
+
+    font-family: "Poppins", serif;
+}
+
+h2 {
+    margin: 40px;
+    color: #fba823;
+}
+
+.hook {
+    min-height: 100vh;
+}
+
+.hook .flex-fill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 2000;
+    width: 100vw;
+    background-color: #202020;
+    box-shadow: 0px 5px 10px #323232;
+}
+
+.lnr {
+    font-size:40px;
+    color: #fba823;
+}
+
+.card {
+    background-color: #323232;
+}
+
+.border-right, .badge {
+    border-color: #fba823 !important;
+}
+
+.current-role {
+    background-color: #fba823;
+}
+
+.timeline ul li div p {
+    margin: 0;
+}
+
+#projects {
+    height: 100vh;
+}
