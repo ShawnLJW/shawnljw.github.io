@@ -9,8 +9,7 @@ body {
     font-family: "Poppins", serif;
 }
 
-h2 {
-    margin: 40px;
+.orange {
     color: #fba823;
 }
 
@@ -22,6 +21,11 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.chevron {
+    color: #cccccc;
+    font-size: 20px;
 }
 
 .navbar {
